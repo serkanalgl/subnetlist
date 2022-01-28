@@ -63,5 +63,23 @@
                 "standard": "EIP3091"
             }
         ]
+    },
+    {
+        "name": "WAGMI",
+        "chain": "WAGMI",
+        "rpc": [
+            "https://api.trywagmi.xyz/rpc"
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "WGM",
+            "symbol": "WGM",
+            "decimals": 18
+        },
+        "infoURL": "https://trywagmi.xyz",
+        "shortName": "WAGMI",
+        "chainId": 11111,
+        "networkId": 1,
+        "explorers": []
     }
 ]
