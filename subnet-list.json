@@ -36,7 +36,7 @@
         "name": "Avalanche Fuji Testnet",
         "chain": "AVAX",
         "icon": {
-            "url": "ipfs://QmRALA5qvQBRwWre8ofuhCbr3wxVmPS3kGetRR9uJqbqqe",
+            "url": "ipfs://QmWNy8Mtd8k2zcQXihXmhF1jurbCrpWmzW9xWRxMMwQZE4",
             "width": 1503,
             "height": 1504,
             "format": "png"
@@ -61,6 +61,35 @@
                 "name": "snowtrace",
                 "url": "https://testnet.snowtrace.io",
                 "standard": "EIP3091"
+            }
+        ]
+    },
+    {
+        "name": "WAGMI",
+        "chain": "WAGMI",
+        "icon":{
+            "url": "ipfs://QmNoyUXxnak8B3xgFxErkVfyVEPJUMHBzq7qJcYzkUrPR4",
+            "width": 500,
+            "height": 500,
+            "format": "png"
+        },
+        "rpc": [
+            "https://api.trywagmi.xyz/rpc"
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "WAGMI",
+            "symbol": "WGM",
+            "decimals": 18
+        },
+        "infoURL": "https://trywagmi.xyz",
+        "shortName": "WAGMI",
+        "chainId": 11111,
+        "networkId": 1,
+        "explorers": [
+            {
+                "name": "WAGMI Explorer",
+                "url": "https://trywagmi.xyz"
             }
         ]
     }
