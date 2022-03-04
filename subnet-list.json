@@ -92,5 +92,36 @@
                 "url": "https://trywagmi.xyz"
             }
         ]
+    },
+    {
+        "name": "Swimmer Test",
+        "chain": "Swimmer Test",
+        "icon":{
+            "url": "ipfs://QmbdfQ7b8BKRtXnUjNdeW8xZnqheKeTsKmzFHLS6Pdp1vr",
+            "width": 500,
+            "height": 500,
+            "format": "png"
+        },
+        "rpc": [
+            "https://testnet-rpc.swimmer.network/ext/bc/2Sk6j8TYVQc2oR1TtUz64EWHAYjDUoDQ4hpbu6FMN2JBKC77xa/rpc"
+        ],
+        "faucets": [
+            "https://faucet.swimmer.network"
+        ],
+        "nativeCurrency": {
+            "name": "Treasure Under Sea",
+            "symbol": "TUS.e",
+            "decimals": 18
+        },
+        "infoURL": "https://www.swimmer.network",
+        "shortName": "TUS.e",
+        "chainId": 73771,
+        "networkId": 1,
+        "explorers": [
+            {
+                "name": "Swimmer Test Explorer",
+                "url": "https://testnet-explorer.swimmer.network/"
+            }
+        ]
     }
 ]
