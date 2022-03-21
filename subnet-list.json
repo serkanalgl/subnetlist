@@ -74,7 +74,7 @@
             "format": "png"
         },
         "rpc": [
-            "https://api.trywagmi.xyz/rpc"
+            "https://api-wagmi.avax-test.network/rpc"
         ],
         "faucets": [],
         "nativeCurrency": {
