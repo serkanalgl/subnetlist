@@ -94,12 +94,12 @@
         ]
     },
     {
-        "name": "Swimmer Test",
-        "chain": "Swimmer Test",
+        "name": "Swimmer Network Subnet Test",
+        "chain": "Swimmer Network Subnet Test",
         "icon":{
-            "url": "ipfs://QmbdfQ7b8BKRtXnUjNdeW8xZnqheKeTsKmzFHLS6Pdp1vr",
-            "width": 500,
-            "height": 500,
+            "url": "https://raw.githubusercontent.com/ava-labs/subnet-assets/b28e0d6/chains/73772/chain-logo.png",
+            "width": 256,
+            "height": 256,
             "format": "png"
         },
         "rpc": [
@@ -121,6 +121,72 @@
             {
                 "name": "Swimmer Test Explorer",
                 "url": "https://testnet-explorer.swimmer.network/"
+            }
+        ]
+    },
+    {
+        "name": "Swimmer Network Subnet",
+        "chain": "Swimmer Network Subnet",
+        "icon":{
+            "url": "https://raw.githubusercontent.com/ava-labs/subnet-assets/b28e0d6/chains/73772/chain-logo.png",
+            "width": 256,
+            "height": 256,
+            "format": "png"
+        },
+        "rpc": [
+            "https://subnets.avax.network/swimmer/mainnet/rpc"
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "Treasure Under Sea",
+            "symbol": "TUS",
+            "decimals": 18
+        },
+        "infoURL": "https://www.swimmer.network",
+        "shortName": "TUS",
+        "chainId": 73772,
+        "networkId": 1,
+        "explorers": [
+            {
+                "name": "Swimmer Network Explorer",
+                "url": "https://explorer.swimmer.network/"
+            }
+        ]
+    },
+    {
+        "name": "DFK Subnet",
+        "chain": "DFK Subnet",
+        "icon":{
+            "url": "https://raw.githubusercontent.com/ava-labs/subnet-assets/b28e0d6/chains/53935/chain-logo.png",
+            "width": 256,
+            "height": 256,
+            "format": "png"
+        },
+        "rpc": [
+            "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
+        ],
+        "faucets": [],
+        "nativeCurrency": {
+            "name": "DeFi Kingdoms",
+            "symbol": "JEWEL",
+            "decimals": 18
+        },
+        "infoURL": "https://www.swimmer.network",
+        "shortName": "JEWEL",
+        "chainId": 53935,
+        "networkId": 1,
+        "explorers": [
+            {
+                "name": "DFK Explorer",
+                "url": "https://explorer.dfkchain.com"
+            },
+          {
+                "name": "DFK Explorer - Avax Network",
+                "url": "https://subnets.avax.network/defi-kingdoms"
+            },
+          {
+                "name": "DFK Explorer - Avascan",
+                "url": "https://avascan.info/blockchain/dfk/home"
             }
         ]
     }
